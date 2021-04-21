@@ -12,6 +12,8 @@ console.log(userName+", "+"Welcome to the 'Young Sheldon Quiz' \nLets see how bi
 //User wants to continue or quit-----------------------------
 var userOpt = readLineSync.question("Would you like to play the quiz? \nEnter 'Y' to start the quiz or 'N' to exit the quiz\n");
 
+//Breaking for white space
+console.log("\n");
 
 //Questions----------------------------------------
 var questionArray=[
@@ -47,11 +49,11 @@ var questionArray=[
     answer: "a"
   },
   questionNine = {
-    question: "What is the first name of Sheldon's friend in high school?\nAnswer(One Word):",
+    question: "What is the first name of Sheldon's friend in high school?\nAnswer(One Word): ",
     answer: "tam"
   },
   questionTen = {
-    question: "Sheldon draws up his first contractual agreement between people in season 1. \na) True \nb) False\n",
+    question: "Sheldon draws up his first contractual agreement between people in season 1 \na) True \nb) False\n",
     answer: "a"
   }
   ]
